@@ -158,23 +158,32 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
   work: {
     description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
     items: [
-      {
-        title: "Software Developer",
+       {
+        title: "Senior Android Developer",
         company: {
-          name: "Freelance",
+          name: "Raiffeisen Bank International AG",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/celiktemha",
         },
-        date: "2021 - Present",
+        date: "2022 - present",
       },
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
+          name: "Tarentum AI",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/celiktemha",
         },
-        date: "2019 - 2021",
+        date: "2020 - 2022",
+      },
+      {
+        title: "Mobile App Developer",
+        company: {
+          name: "iMobileCode",
+          image: "/logo.webp",
+          url: "https://github.com/celiktemha",
+        },
+        date: "2013 - 2020",
       },
     ],
   },
