@@ -111,7 +111,7 @@ This means I can take an idea from concept to a fully functioning mobile app —
           url: "",
         },
         date: "2020 - 2021",
-      }
+      },
       {
         title: "Mobile App Developer",
         company: {
