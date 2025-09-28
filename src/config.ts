@@ -85,23 +85,32 @@ This means I can take an idea from concept to a fully functioning mobile app —
   work: {
     description: `I've built and shipped apps for both iOS and Android, covering the entire development cycle: design, coding, backend, and release.`,
     items: [
-      {
-        title: "Full-stack Mobile Developer",
+       {
+        title: "Senior Android Developer",
         company: {
-          name: "Self-employed",
+          name: "Raiffeisen Bank International AG",
           image: "/logo.webp",
-          url: "https://celiktemha.com",
+          url: "",
         },
-        date: "2023 — Present",
+        date: "2022 - present",
       },
       {
         title: "Software Developer",
         company: {
-          name: "Freelance",
+          name: "Tarentum AI",
           image: "/logo.webp",
-          url: "https://github.com/celiktemha",
+          url: "",
         },
-        date: "2019 — 2023",
+        date: "2020 - 2022",
+      },
+      {
+        title: "Mobile App Developer",
+        company: {
+          name: "iMobileCode",
+          image: "/logo.webp",
+          url: "",
+        },
+        date: "2013 - 2020",
       },
     ],
   },
