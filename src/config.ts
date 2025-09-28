@@ -23,9 +23,9 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "Website",
-    url: "https://celiktemha.com",
-    icon: "mdi:web",
+    title: "X",
+    url: "https://x.com/ahmetcelikdev",
+    icon: "mdi:x",
     external: true,
   },
   {
