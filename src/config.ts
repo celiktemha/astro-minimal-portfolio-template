@@ -25,7 +25,7 @@ export const socialLinks: SocialLink[] = [
   {
     title: "X",
     url: "https://x.com/ahmetcelikdev",
-    icon: "mdi:x",
+    icon: "mdi:web",
     external: true,
   },
   {
