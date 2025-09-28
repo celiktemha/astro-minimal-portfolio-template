@@ -51,7 +51,7 @@ export const homePageContent: HomePageContent = {
   },
   role: "Full-stack Mobile Developer",
   description:
-    "I’m Ahmet Çelik, a full-stack mobile developer. I design and build iOS and Android apps with SwiftUI, SwiftData, Jetpack Compose, and Kotlin. Beyond the frontend, I also write custom backend APIs or integrate services like Firebase and Supabase — delivering complete, production-ready solutions.",
+    "I’m Ahmet Çelik, a full-stack mobile developer. I design and build iOS and Android apps with SwiftUI, Jetpack Compose. Beyond the frontend, I also write custom backend APIs or integrate services like Firebase and Supabase — delivering complete, production-ready solutions.",
   socialLinks,
   links: [
     { title: "My Projects", url: "/projects" },
@@ -70,7 +70,7 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Ahmet Çelik — a full-stack mobile developer. I work across the stack, from **front-end UIs** in SwiftUI and Jetpack Compose, to **business logic** in SwiftData and Kotlin Multiplatform, to **custom backend APIs** or integrations with Firebase/Supabase.  
+I'm Ahmet Çelik — a full-stack mobile developer. I work across the stack, from **front-end UIs** in SwiftUI and Jetpack Compose, to **custom backend APIs** or integrations with Firebase/Supabase.  
 <br/><br/>
 This means I can take an idea from concept to a fully functioning mobile app — UI, architecture, backend, and deployment.`,
     image_l: {
