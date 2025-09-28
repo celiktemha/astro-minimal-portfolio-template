@@ -74,11 +74,11 @@ I'm Ahmet Çelik — a full-stack mobile developer. I work across the stack, fro
 <br/><br/>
 This means I can take an idea from concept to a fully functioning mobile app — UI, architecture, backend, and deployment.`,
     image_l: {
-      url: "/demo-1.jpg",
+      url: "/IMG_7516.jpg",
       alt: "Coding & design workflow",
     },
     image_r: {
-      url: "/demo-1.jpg",
+      url: "/IMG_2562.jpg",
       alt: "Mobile app previews",
     },
   },
