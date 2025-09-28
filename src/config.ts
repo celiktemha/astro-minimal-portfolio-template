@@ -9,40 +9,34 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Ahmet Çelik",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "celiktemha@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
-  {
-    title: "Home",
-    url: "/",
-  },
-  {
-    title: "About",
-    url: "/about",
-  },
-  {
-    title: "Projects",
-    url: "/projects",
-  },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
+  { title: "Home", url: "/" },
+  { title: "About", url: "/about" },
+  { title: "Projects", url: "/projects" },
+  { title: "Blog", url: "/blog" },
 ];
 
 export const socialLinks: SocialLink[] = [
   {
+    title: "Website",
+    url: "https://celiktemha.com",
+    icon: "mdi:web",
+    external: true,
+  },
+  {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/celiktemha",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:celiktemha@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -50,76 +44,71 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Ahmet Çelik — Full-stack Mobile Developer",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Full-stack mobile developer building iOS & Android apps end-to-end — from SwiftUI & Jetpack Compose interfaces to custom backend APIs.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Full-stack Mobile Developer",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
-  socialLinks: socialLinks,
+    "I’m Ahmet Çelik, a full-stack mobile developer. I design and build iOS and Android apps with SwiftUI, SwiftData, Jetpack Compose, and Kotlin. Beyond the frontend, I also write custom backend APIs or integrate services like Firebase and Supabase — delivering complete, production-ready solutions.",
+  tagline:
+    "Full-stack mobile developer — from SwiftUI & Jetpack Compose UIs to custom backend APIs.",
+  socialLinks,
   links: [
-    {
-      title: "My Projects",
-      url: "/projects",
-    },
-    {
-      title: "About Me",
-      url: "/about",
-    },
+    { title: "My Projects", url: "/projects" },
+    { title: "About Me", url: "/about" },
   ],
 };
 
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Ahmet Çelik",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Full-stack mobile developer creating iOS and Android apps end-to-end, from frontend UIs to custom backend services.",
     image: identity.logo,
   },
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Ahmet Çelik — a full-stack mobile developer. I work across the stack, from **front-end UIs** in SwiftUI and Jetpack Compose, to **business logic** in SwiftData and Kotlin Multiplatform, to **custom backend APIs** or integrations with Firebase/Supabase.  
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+This means I can take an idea from concept to a fully functioning mobile app — UI, architecture, backend, and deployment.`,
     image_l: {
       url: "/demo-1.jpg",
-      alt: "Left Picture",
+      alt: "Coding & design workflow",
     },
     image_r: {
       url: "/demo-1.jpg",
-      alt: "Right Picture",
+      alt: "Mobile app previews",
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `I've built and shipped apps for both iOS and Android, covering the entire development cycle: design, coding, backend, and release.`,
     items: [
       {
-        title: "Software Developer",
+        title: "Full-stack Mobile Developer",
         company: {
-          name: "Freelance",
+          name: "Self-employed",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://celiktemha.com",
         },
-        date: "2021 - Present",
+        date: "2023 — Present",
       },
       {
         title: "Software Developer",
         company: {
           name: "Freelance",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/celiktemha",
         },
-        date: "2019 - 2021",
+        date: "2019 — 2023",
       },
     ],
   },
   connect: {
-    description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
+    description: `Always open to collaborations and discussions about mobile apps, UI/UX, and full-stack development.`,
     links: socialLinks,
   },
 };
@@ -127,32 +116,59 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Projects | Ahmet Çelik",
+    description: "Selected iOS and Android projects, side apps, and experiments.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Selected work & mobile projects",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "PennySaved",
+      description:
+        "An ADHD-friendly savings tracker that shows how much you save by avoiding impulse spending. Built with SwiftUI · SwiftData.",
       image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      year: "2025",
+      url: "https://github.com/celiktemha",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "Payment Tracker (Billy)",
+      description:
+        "A clean ledger for tracking payments with monthly/summary views, color-coded categories, and currency options. SwiftUI.",
       image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
+      year: "2025",
+      url: "https://github.com/celiktemha",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
+      title: "memsa",
+      description:
+        "A second brain for iOS: save text, images, videos, and URLs directly from the share sheet, with tags and notes. SwiftUI · SwiftData.",
+      image: "/demo-2.jpg",
+      year: "2025",
+      url: "https://github.com/celiktemha",
+    },
+    {
+      title: "Just Fish Calendar",
+      description:
+        "A fish seasonality calendar app with grid UI, search, and ordering by 'eatable this month'. SwiftUI.",
       image: "/demo-2.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/celiktemha",
+    },
+    {
+      title: "YÖKDİL 600 Words",
+      description:
+        "Vocabulary trainer app for the 600 most-used YÖKDİL exam words. Simple UI, spaced practice.",
+      image: "/demo-2.jpg",
+      year: "2024",
+      url: "https://github.com/celiktemha",
+    },
+    {
+      title: "Stoic Focus",
+      description:
+        "Focus timer with stoic quotes and mountain-climb progress animations for motivation. SwiftUI.",
+      image: "/demo-2.jpg",
+      year: "2024",
+      url: "https://github.com/celiktemha",
     },
   ],
 };
@@ -160,9 +176,10 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Blog | Ahmet Çelik",
+    description:
+      "Writing about SwiftUI, SwiftData, Jetpack Compose, Kotlin, and full-stack mobile development.",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Thoughts, stories, and build logs.",
 };
