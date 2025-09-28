@@ -106,6 +106,15 @@ This means I can take an idea from concept to a fully functioning mobile app —
       {
         title: "Mobile App Developer",
         company: {
+          name: "Sporzy",
+          image: "/logo.webp",
+          url: "",
+        },
+        date: "2020 - 2021",
+      }
+      {
+        title: "Mobile App Developer",
+        company: {
           name: "iMobileCode",
           image: "/logo.webp",
           url: "",
